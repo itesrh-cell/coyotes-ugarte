@@ -1,13 +1,14 @@
-COYOTES UGARTE V1.5 — AVATARES INFANTILES
+Coyotes Ugarte V1.6 — Avatares de rostro corregidos
 
-Se incorporaron los avatares aprobados: coyotito y coyotita con moño rosa, ambos con uniforme Coyotes y proporciones infantiles.
-La bitácora y los datos almacenados en tu navegador se conservan: se utiliza la misma clave local que en la versión anterior.
+Se conservaron todas las funciones de asistencia y la misma clave de almacenamiento local.
+Se sustituyeron las ilustraciones de torso por retratos centrados del rostro, con moño rosa en coyotita.
 
-ACTUALIZAR GITHUB
-1. Abre tu repositorio coyotes-ugarte.
-2. Add file > Upload files. Sube todos los archivos del contenido de esta carpeta, incluidos los dos avatar_*.webp y la carpeta icons.
-3. GitHub mostrará archivos existentes para reemplazar. Confirma con Commit changes.
-4. Visita la página publicada y actualiza/reabre la aplicación.
+PUBLICACION GITHUB
+1. Descomprime el ZIP.
+2. En tu repositorio, utiliza Add file → Upload files y sube los archivos de esta carpeta (incluida la carpeta icons).
+3. Confirma que aparecen index.html, service-worker.js, los dos archivos *_rostro.webp y los logotipos.
+4. Haz Commit changes.
+5. Abre el sitio publicado y actualiza. Los rostros utilizan nombres nuevos para evitar caché de imágenes antiguas.
 
-PRIVACIDAD: NO subas listas de niños, respaldos JSON ni exportaciones CSV al repositorio público. Los nombres se cargan desde la app, en el dispositivo.
-Si la app ya tiene jugadores en un navegador, haz un respaldo JSON antes de actualizar.
+No subas listados de jugadores al repositorio público.
+Los registros siguen guardándose en el navegador. Haz respaldos periódicos en JSON.

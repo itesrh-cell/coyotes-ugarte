@@ -1,5 +1,5 @@
-const CACHE="coyotes-ugarte-v1-5";
-const ASSETS=["./", "./index.html", "./manifest.webmanifest", "./primaria_menor.webp", "./primaria_mayor.webp", "./avatar_coyotito.webp", "./avatar_coyotita.webp", "./icons/icon-192.png", "./icons/icon-512.png"];
+const CACHE="coyotes-ugarte-v1-6";
+const ASSETS=["./", "./index.html", "./manifest.webmanifest", "./primaria_menor.webp", "./primaria_mayor.webp", "./avatar_coyotito_rostro.webp", "./avatar_coyotita_rostro.webp", "./icons/icon-192.png", "./icons/icon-512.png"];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
   self.skipWaiting();
