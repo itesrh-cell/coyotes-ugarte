@@ -1,0 +1,29 @@
+COYOTES UGARTE — BITÁCORA V1.3
+
+¿QUÉ HACE?
+- Registra jugadores por apodo, asistencia, manejo, pase y defensa.
+- Guarda notas por jugador y objetivos y observaciones de sesión.
+- Incluye escudos auténticos de Primaria Menor y Primaria Mayor.
+- Exporta CSV (Excel) y respaldos JSON; puede restaurar respaldos.
+
+PRUEBA EN COMPUTADORA (SIN INSTALAR)
+1. Descomprime TODO el ZIP.
+2. Abre index.html en el navegador.
+3. Cambia de grupo y verifica que cambia el escudo.
+4. Crea un jugador de prueba, marca asistencia y exporta respaldo.
+
+USO EN CELULAR E INSTALACIÓN
+- NO basta con enviar solo index.html; necesita la carpeta completa.
+- Para instalarse en pantalla de inicio y guardar recursos sin conexión, se necesita alojar esta carpeta en un sitio HTTPS. No se ha publicado todavía.
+- Una vez publicada en HTTPS, abre la dirección en Chrome (Android) o Safari (iPhone) y utiliza la función del navegador de 'Agregar a pantalla de inicio'. La disponibilidad de instalación varía según el navegador.
+- Es posible que algunas funciones de instalación/offline no operen al abrir el archivo desde disco o desde un visor de archivos.
+
+PRIVACIDAD Y RESPALDOS
+- No existe servidor, cuenta ni sincronización: los datos se quedan en el almacenamiento local de cada navegador.
+- Los datos guardados en computadora NO aparecerán por sí solos en celular. Exporta respaldo JSON y restáuralo en el otro dispositivo si necesitas trasladarlos.
+- Las fotos/logos están incluidos, pero NO se han añadido fotografías de niños ni de terceros.
+- Usa apodos de menores, no información sensible.
+- Guarda un respaldo JSON frecuente. Borrar los datos del navegador puede borrar la bitácora.
+
+PRÓXIMO PASO
+Probar esta V1.3 y elegir dónde publicar una copia de la aplicación estática en HTTPS. El código no almacena datos en la página pública, pero el proveedor de alojamiento puede tener sus propias políticas y registros.
